@@ -1,0 +1,6 @@
+mode_modules/
+.git/
+.gitignore
+README.md 
+LICENSE
+.dockerignore
