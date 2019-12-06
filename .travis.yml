@@ -9,5 +9,5 @@ install:
   - docker-compose -f docker/docker-compose.yml build test
 
 script:
-  - "docker-compose -f docker/docker-compose.yml run test --abort-on-container-exit"
+  - "docker-compose -f docker/docker-compose.yml run test "
 
