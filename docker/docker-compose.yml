@@ -7,7 +7,7 @@ services:
       dockerfile: docker/Dockerfile
     environment: 
       - CI=true
-    command: yarn test
+    command: yarn test -u
 
   dev:
     build:
